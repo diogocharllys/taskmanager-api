@@ -43,7 +43,7 @@ API RESTful para gerenciamento de tarefas, projetos e usuários. Este projeto fo
 1. Clone o repositório:
 
    ```sh
-   git clone https://github.com/seu-usuario/taskmanager-api.git
+   git clone https://github.com/diogocharllys/taskmanager-api.git
    cd taskmanager-api
    ```
 
