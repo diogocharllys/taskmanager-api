@@ -23,4 +23,6 @@ RUN npx prisma generate
 ENV NODE_ENV=production
 
 EXPOSE 3000
-CMD ["node", "dist/server.js"]
+
+# Sincroniza o schema do banco antes de iniciar (cria as tabelas no primeiro deploy)
+CMD ["sh", "-c", "npx prisma db push --skip-generate && node dist/server.js"]
