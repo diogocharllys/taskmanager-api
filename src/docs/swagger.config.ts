@@ -19,15 +19,11 @@ export const swaggerOptions: swaggerJSDoc.Options = {
     },
     security: [{ bearerAuth: [] }],
   },
+  // Em desenvolvimento o código roda a partir de src/*.ts; em produção, de dist/*.js.
+  // Incluímos ambos os globs para que o Swagger encontre as anotações nos dois cenários.
   apis: [
-    "src/modules/auth/*.ts",
-    "src/modules/team/*.ts",
-    "src/modules/project/*.ts",
-    "src/modules/board/*.ts",
-    "src/modules/list/*.ts",
-    "src/modules/card/*.ts",
-    "src/modules/comment/*.ts",
-    "src/modules/history/*.ts",
+    "src/modules/**/*.ts",
+    "dist/modules/**/*.js",
   ],
 };
 
