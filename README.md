@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  <a href="https://taskmanager-api-production-150f.up.railway.app/api-docs/"><img src="https://img.shields.io/badge/🔗_Live_Demo-Swagger-009688?style=for-the-badge" alt="Live Demo"/></a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Node.js-20+-339933?logo=node.js&logoColor=white" alt="Node"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/Express-5-000000?logo=express&logoColor=white" alt="Express"/>
@@ -13,6 +17,9 @@
   <img src="https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white" alt="Jest"/>
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License"/>
 </p>
+
+> 🔗 **Demo ao vivo:** a documentação interativa (Swagger) está disponível em
+> **https://taskmanager-api-production-150f.up.railway.app/api-docs/**
 
 ---
 
@@ -105,7 +112,7 @@ Entidades principais (Prisma):
 
 ## 🔌 Endpoints
 
-> Base URL local: `http://localhost:3000`
+> Base URL local: `http://localhost:3000` · Demo: `https://taskmanager-api-production-150f.up.railway.app`
 
 | Método | Rota | Descrição | Auth |
 |--------|------|-----------|:----:|
